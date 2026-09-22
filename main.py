@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Hello from Python"}
+    return {"message": "Hello from Github Action CI/CD"}
